@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Primer",
+        "text": "MAIN",
+        "img": "/img/primero.png",
+        "preguntas": {
+            "primera": {
+                "title": "Cual es el nombre",
+                "alternativas": {
+                    "a": "ESTO",
+                    "b": "ESTO OTRO"
+                },
+                "correcta": "b"
+            },
+            "alternativas(2da)": {
+                "a": "este",
+                "b": "este otro",
+                "correcta": "a"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "name": "Primer",
+        "text": "MAIN",
+        "img": "/img/primero.png",
+        "preguntas": {
+            "primera": {
+                "title": "Cual es el nombre",
+                "alternativas": {
+                    "a": "ESTO",
+                    "b": "ESTO OTRO"
+                },
+                "correcta": "b"
+            },
+            "alternativas(2da)": {
+                "a": "este",
+                "b": "este otro",
+                "correcta": "a"
+            }
+        }
+    }
+]

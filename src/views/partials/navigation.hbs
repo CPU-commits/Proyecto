@@ -1,0 +1,54 @@
+<style>
+    .header{
+        top: 0;
+        width: 100%;
+        height: 60px;
+        background-color:  #957DAD;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color:  #FFDFD3;
+    }
+
+    .header a{
+        text-decoration: none;
+        color:  #FFDFD3;        
+    }
+
+    .header__left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        width: 150px;
+    }
+
+    .header__left img{
+        width: 50px;
+        height: 40px;
+    }
+
+    .header__right{
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .header__right i{
+        font-size: 24px;
+    }
+</style>
+
+<header class="header">
+    <div class="header__left">
+        <img src="img/logo.png" alt="Logo">
+        <h3>Aprender</h3>
+    </div>
+    <div class="header__right">
+        <i class="fab fa-readme"></i>
+        <a href="/mascota"><i class="fas fa-paw"></i></a>
+        <i class="fas fa-trophy"></i>
+    </div>
+</header>
